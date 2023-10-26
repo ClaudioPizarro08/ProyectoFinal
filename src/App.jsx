@@ -1,11 +1,12 @@
-import './App.css'
-import NavBar from './Components/NavBar'
+import React from 'react';
+import NavBar from './Components/NavBar';
 
 function App() {
-
   return (
-    <NavBar />
-  )
+    <React.Fragment>
+      <NavBar/>
+    </React.Fragment>
+  );
 }
 
-export default App
+export default App;
